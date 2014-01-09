@@ -10,7 +10,7 @@
 
   <title>
     
-      Lights-On Network &middot; zblog
+      Lights-On Network &middot; zacharytamas
     
   </title>
 
@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="/public/css/syntax.css">
   <link rel="stylesheet" href="/public/css/hyde.css">
   <link rel="stylesheet" href="/public/css/zblog.css">
+  <link rel="stylesheet" href="/public/css/portfolio.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   <!-- Icons -->
@@ -35,78 +36,111 @@
   <body class="theme-base-0b">
 
     <div class="sidebar">
-  <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      
-      <p class="lead">An intermittent log of developments in the life of Zachary&nbsp;Jones.</p>
+      <div class="container sidebar-sticky">
+
+        <ul class="sidebar-nav">
+          
+          
+            
+              <li class="sidebar-nav-item active">
+                <a href="/portfolio/lights-on/">Lights-On Network</a>
+              </li>
+            
+          
+            
+              <li class="sidebar-nav-item">
+                <a href="/portfolio/screenly/">Screenly</a>
+              </li>
+            
+          
+            
+              <li class="sidebar-nav-item">
+                <a href="/portfolio/yippiemove/">YippieMove</a>
+              </li>
+            
+          
+            
+              <li class="sidebar-nav-item">
+                <a href="/portfolio/uwf-life/">UWF Life</a>
+              </li>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+
+          <li class="sidebar-nav-item">
+            <a href="/">&laquo; Back to Blog</a>
+          </li>
+
+        </ul>
+      </div>
     </div>
 
-    <ul class="sidebar-nav">
-      <li class="sidebar-nav-item">
-        <a href="/">Home</a>
-      </li>
+    <div class="content container">
 
-      
+      <div class="project-body">
 
-      
-      
-        
-          
-        
-      
-        
-          
-            <li class="sidebar-nav-item">
-              <a href="/about/">About</a>
-            </li>
-          
-        
-      
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-            <li class="sidebar-nav-item">
-              <a href="/stuff-i-use/">Stuff I Use</a>
-            </li>
-          
-        
-      
+        <header>
+          <h1>Lights-On Network</h1>
+          <h2>Because healthcare is too important to stay the same.</h2>
+        </header>
 
-      <li class="sidebar-nav-item">
-        <a href="http://zacharytamas.me">Resume</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a href="http://twitter.com/zacharytamas">Twitter</a>
-      </li>
+        <p class="lead">
+  At <a href="http://www.cerner.com">Cerner</a> I have been working on the front-end development team for an internal project called the Lights-On&nbsp;Network.
+</p>
 
-    </ul>
+<p>Lights On Network is a suite of dashboards and tools for Cerner Associates and Clients to monitor and manage the performance of Cerner&#39;s software and hardware solutions, as well as collecting data about the efficiency of their usage from an industry perspective down to an individual end-user.</p>
 
-    <p>&copy; 2014. All rights reserved.</p>
-  </div>
+<div class="pullout image">
+    <img src="/public/portfolio/lights-on/cerner-hq.jpg" width="100%">
 </div>
 
+<h2>Case Study: <span>Package Recommendations</span></h2>
 
-    <div class="content container">
-      <h1>Lights-On Network</h1>
+<p>One of my first projects after joining the team full-time at Cerner was to architect and implement the entire client-side portion of the overview page of a major project for Lights-On: the Package Recommendations dashboard.</p>
+
+<p>The purpose of the Package Recommendations dashboard is to allow Cerner Associates and the I.T. departments of their Clients (commonly hospitals and doctors&#39; offices) to manage their Cerner solutions. &quot;Packages&quot; recommended are typically patches that resolve bugs or increase performance, and the acceptance of these packages lead to more efficient healthcare for Cerner clients and their patients.</p>
+
+<p>From the beginning there was a lot of hype about the project, as its planned functionality was an unprecedented amount of interactivity for a Lights-On dashboard. Even only having been on the team for two months, it was clear to me that the new JavaScript-centric direction many of our dashboards were headed that there needed to be an organized, focused driver of the effort. My <a href="/portfolio/screenly/">prior experience</a> with Backbone.js and proven skill with JavaScript led me to step forward and try my hand.</p>
+
+<div class="float-right">
+  <img src="http://lorempixel.com/400/300/technics">
+</div>
+
+<p>Starting with the approved design mockups from our design team, I took to outlining the design and breaking the highly interactive pieces into components and structuring them in such a way that could be built largely in isolation yet highly communicative using Backbone.js methodologies. From this architecting stage, a series of implementation plans was derived, which was broken into standalone &quot;tickets&quot; that could be done (mostly) independently.</p>
+
+<p>During the following iteration cycle, I took on the client-side implementation of the plan meanwhile others on the team each built their respective pieces including an HTTP API for retrieving a user&#39;s recommendations and saving changes or notes to them. Through open communication, the team was able to pull together tightly and complete the project smoothly: a true shining moment for all of us on the front-end team.</p>
+
+<p>As part of my vision for JavaScript applications on the team in the future, I took the opportunity to include <a href="http://pivotal.github.io/jasmine/">Jasmine</a> into the project and began writing the first JavaScript tests the codebase had seen. Following test-driven development as disciplined as I&#39;d ever managed, the project was completed with virtually no defects and over a hundred Jasmine tests covering almost all JavaScript components and their interactions. This habit of writing Jasmine tests for all new JavaScript functionality has stuck, with everyone on the team contributing to a test suite that increases every development cycle.</p>
+
+<hr>
+
+
+        
+
+
+      </div>
 
     </div>
 
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-11164103-5', 'zacharytamas.me'); ga('send', 'pageview');
-    </script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-11164103-5', 'zacharytamas.me'); ga('send', 'pageview');
+</script>
+
 
   </body>
 </html>

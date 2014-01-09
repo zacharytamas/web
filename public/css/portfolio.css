@@ -1,0 +1,30 @@
+.project-body > header {
+  text-align: center;
+  border-bottom: 1px #b3b3b3 solid;
+  margin: 0 0 2rem;
+  padding: 1rem 0;
+}
+.project-body > header h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: #666666;
+  margin-top: 0;
+}
+.project-body > h2 {
+  text-align: center;
+  margin: 1rem 0;
+}
+.project-body > h2 span {
+  font-weight: 200;
+}
+.project-body p.lead {
+  font-weight: 500;
+}
+.project-body .pullout {
+  margin: 2rem -1rem;
+}
+.project-body .float-right {
+  float: right;
+  margin: 0 0 0.5rem 1rem;
+}
