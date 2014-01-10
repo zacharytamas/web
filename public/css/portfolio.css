@@ -1,3 +1,7 @@
+#project .sidebar > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
 #project .content {
   padding-top: 3rem;
 }
