@@ -1,9 +1,3 @@
-#project .sidebar .big-z-logo img {
-  display: inline;
-}
-#project .sidebar .big-z-logo a:hover {
-  opacity: 0.8;
-}
 #project .sidebar > .container {
   padding-right: 0;
   padding-left: 0;
