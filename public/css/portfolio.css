@@ -1,3 +1,15 @@
+.sidebar .big-z-logo img {
+  display: inline;
+}
+.sidebar .big-z-logo a:hover {
+  opacity: 0.8;
+}
+#project .sidebar .big-z-logo img {
+  display: inline;
+}
+#project .sidebar .big-z-logo a:hover {
+  opacity: 0.8;
+}
 #project .sidebar > .container {
   padding-right: 0;
   padding-left: 0;
@@ -7,6 +19,10 @@
 }
 #project ul.project-list li {
   padding-left: 20px;
+}
+#project ul.project-list li:hover {
+  border-left: 10px rgba(255, 255, 255, 0.25) solid;
+  padding-left: 10px;
 }
 #project ul.project-list li.active {
   border-left: 10px #fff solid;
