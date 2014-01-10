@@ -1,9 +1,3 @@
-.sidebar .big-z-logo img {
-  display: inline;
-}
-.sidebar .big-z-logo a:hover {
-  opacity: 0.8;
-}
 #project .sidebar .big-z-logo img {
   display: inline;
 }
@@ -23,6 +17,8 @@
 #project ul.project-list li:hover {
   border-left: 10px rgba(255, 255, 255, 0.25) solid;
   padding-left: 10px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 #project ul.project-list li.active {
   border-left: 10px #fff solid;
