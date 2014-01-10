@@ -1,3 +1,21 @@
+#project .content {
+  padding-top: 3rem;
+}
+#project ul.project-list li {
+  padding-left: 20px;
+}
+#project ul.project-list li.active {
+  border-left: 10px #fff solid;
+  padding-left: 10px;
+}
+#project ul.project-list li.active,
+#project ul.project-list li.active a {
+  font-weight: bold;
+}
+#project ul.project-list h3 {
+  font-weight: normal;
+  margin: 1rem 0 0;
+}
 .project-body > header {
   text-align: center;
   border-bottom: 1px #b3b3b3 solid;
@@ -13,7 +31,7 @@
 }
 .project-body > h2 {
   text-align: center;
-  margin: 1rem 0;
+  margin: 2rem 0 1rem;
 }
 .project-body > h2 span {
   font-weight: 200;
