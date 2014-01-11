@@ -1,16 +1,1 @@
-li > ul {
-  margin-bottom: 0;
-}
-.sidebar > .container {
-  padding-right: 0;
-  padding-left: 0;
-}
-.sidebar .big-z-logo img {
-  display: inline;
-  border-radius: 32px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-.sidebar .big-z-logo img:hover {
-  border-radius: 5px;
-}
+li>ul{margin-bottom:0}.sidebar>.container{padding-right:0;padding-left:0}.sidebar .big-z-logo img{display:inline;border-radius:32px;-webkit-transition:all .5s;transition:all .5s}.sidebar .big-z-logo img:hover{border-radius:5px}
