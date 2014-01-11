@@ -1,6 +1,10 @@
 li > ul {
   margin-bottom: 0;
 }
+.sidebar > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
 .sidebar .big-z-logo img {
   display: inline;
   border-radius: 32px;
