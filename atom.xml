@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>zacharytamas</title><link href="http://blog.zacharytamas.me/atom.xml" rel="self"/><link href="http://blog.zacharytamas.me/"/><updated>2014-01-12T18:25:36-06:00</updated><id>http://blog.zacharytamas.me</id><author><name>Zachary Jones</name><email></email></author><entry><title>ES6 Arrow Functions</title><link href="http://blog.zacharytamas.me/2014/01/02/es6-arrow-functions/"/><updated>2014-01-02T00:00:00-06:00</updated><id>http://blog.zacharytamas.me/2014/01/02/es6-arrow-functions</id><content type="html">&lt;p&gt;Just noticed earlier today that in Firefox version 22 and above ECMASCript 6&amp;#39;s &lt;a href=&quot;&quot;&gt;CoffeeScript&lt;/a&gt;-style arrow functions are available:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>zacharytamas</title><link href="http://blog.zacharytamas.me/atom.xml" rel="self"/><link href="http://blog.zacharytamas.me/"/><updated>2014-01-12T22:05:12-06:00</updated><id>http://blog.zacharytamas.me</id><author><name>Zachary Jones</name><email></email></author><entry><title>Annual Goals</title><link href="http://blog.zacharytamas.me/2014/01/12/annual-goals/"/><updated>2014-01-12T00:00:00-06:00</updated><id>http://blog.zacharytamas.me/2014/01/12/annual-goals</id><content type="html">&lt;p&gt;I&amp;#39;m not really one to set &amp;quot;resolutions&amp;quot; for a new year, but I do however set high-level goals for what I&amp;#39;d like to accomplish during a year. I try to be general but yet still specific in doing this.&lt;/p&gt;
+
+&lt;p&gt;My goal for 2013 was:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;To create remarkable, interactive user experiences with&amp;nbsp;JavaScript.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I&amp;#39;m pleased to say that I knocked this goal out of the park. See, I avoided JavaScript for years because my first attempt at learning it was all wrong. The extent of my JavaScript usage was enough to implement a jQuery plugin I found online, but I avoided too much more than that.&lt;/p&gt;
+
+&lt;p&gt;JavaScript is a very flexible language that lets you do almost anything&amp;mdash;and it&amp;#39;s this fact that can make it a very intimidating language for someone like me who prefers to learn things the &amp;quot;right way&amp;quot;. With so many ways of doing the same thing, which do you do? Is there a right way to do this? Probably, but which way is it? I don&amp;#39;t know, I&amp;#39;m just learning this language... &lt;em&gt;eek&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I eventually learned that the reason JavaScript can be so intimidating is that it&amp;#39;s not just JavaScript: you have to understand HTML/CSS, the DOM, the browser event loop, and so on &lt;em&gt;ad nauseam&lt;/em&gt;. I resolved to spend 2013 learning how all of these concepts fit together and to use that knowledge to confidently engineer applications that I didn&amp;#39;t fear were &amp;quot;all wrong&amp;quot;.&lt;/p&gt;
+
+&lt;p&gt;In 2013 I built countless small projects in JavaScript using various frameworks (Ember.js, Angular.js, Backbone.js, Meteor.js) just to comprehensively learn the language in an agnostic way (by playing with so many different styles of organizing project). I also was able to then go prime time and build three major JavaScript projects with full test suites and fully maintainable codebases.&lt;/p&gt;
+
+&lt;p&gt;This past year of personal development has been very fulfilling and I&amp;#39;ve found a new love for front-end development that I hope to continue to cultivate through 2014, which leads me to...&lt;/p&gt;
+
+&lt;h2&gt;2014 Annual Goal&lt;/h2&gt;
+
+&lt;p&gt;My goal for this year is a complementary course correction from last year&amp;#39;s.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;To own the entire creative process, comprehensively designing and developing interactive digital products.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Design is a latent talent I&amp;#39;ve always wished to have time to develop and thus is my goal for this year. This very website is a part of this goal: having designed, implemented, and written the copy over the course of a week. I&amp;#39;m sure it will iteratively get better throughout the year, but as an exercise over a week&amp;#39;s worth of nights, I am very pleased with what I&amp;#39;ve accomplished.&lt;/p&gt;
+
+&lt;p&gt;So come along, let&amp;#39;s all hone our crafts and do even better work this year.&lt;/p&gt;
+</content></entry><entry><title>ES6 Arrow Functions</title><link href="http://blog.zacharytamas.me/2014/01/02/es6-arrow-functions/"/><updated>2014-01-02T00:00:00-06:00</updated><id>http://blog.zacharytamas.me/2014/01/02/es6-arrow-functions</id><content type="html">&lt;p&gt;Just noticed earlier today that in Firefox version 22 and above ECMASCript 6&amp;#39;s &lt;a href=&quot;&quot;&gt;CoffeeScript&lt;/a&gt;-style arrow functions are available:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/public/posts/arrow-functions-firefox/console.png&quot; width=&quot;100%&quot;&gt;&lt;/p&gt;
 
