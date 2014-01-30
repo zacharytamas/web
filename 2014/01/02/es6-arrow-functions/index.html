@@ -1,11 +1,156 @@
-<!DOCTYPE html> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us"> <head> <link href="http://gmpg.org/xfn/11" rel="profile"> <meta http-equiv="content-type" content="text/html; charset=utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"> <title> ES6 Arrow Functions &middot; zacharytamas </title> <link rel="stylesheet" href="/public/css/poole.css"> <link rel="stylesheet" href="/public/css/syntax.css"> <link rel="stylesheet" href="/public/css/hyde.css"> <link rel="stylesheet" href="/public/css/zblog.css"> <link rel="stylesheet" href="/public/css/portfolio.css"> <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface"> <link rel="shortcut icon" href="/public/favicon.ico"> <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml"> </head> <body class="theme-base-0e "> <div class="sidebar"> <div class="container big-z-logo"> <a href="/"><img src="/public/z-negative-space.png" alt="Z"></a> </div> <div class="container sidebar-sticky"> <div class="sidebar-about"> <h2>Zachary Jones</h2> <p class="lead">Full-stack developer and designer in Kansas&nbsp;City,&nbsp;MO.</p> </div> <ul class="sidebar-nav"> <li class="sidebar-nav-item"> <a href="/">Home</a> </li> <li class="sidebar-nav-item"> <a href="/about/">About Me</a> </li> <li class="sidebar-nav-item"> <a href="/stuff-i-use/">Stuff I Use</a> </li> <li class="sidebar-nav-item"> <a href="/portfolio/">Portfolio</a> </li> <li class="sidebar-nav-item"> <a href="http://www.linkedin.com/in/zacharytamas/" target="_blank">LinkedIn</a> </li> <li class="sidebar-nav-item"> <a href="http://twitter.com/zacharytamas" target="_blank">Twitter</a> </li> </ul> <p>&copy; 2014. All rights reserved.</p> </div> </div> <div class="content container"> <div class="post"> <h1 class="post-title">ES6 Arrow Functions</h1> <span class="post-date">02 Jan 2014</span> <p>Just noticed earlier today that in Firefox version 22 and above ECMASCript 6&#39;s <a href="">CoffeeScript</a>-style arrow functions are available:</p> <p><img src="/public/posts/arrow-functions-firefox/console.png" width="100%"></p> <p>It&#39;s interesting seeing how they&#39;re fitting this Coffee concept into the confines of the JavaScript spec.</p> <p>Of course Coffee uses indentation to denote blocks and JavaScript explicitly requires braces for blocks of longer than one statement, so although we are getting the arrow syntax in ES6 we&#39;ll never get this:</p> <div class="highlight"><pre><code class="coffeescript">  <span class="nv">sayHello = </span><span class="nf">(person) =&gt;</span>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      ES6 Arrow Functions &middot; zacharytamas
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="/public/css/zblog.css">
+  <link rel="stylesheet" href="/public/css/portfolio.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <!-- The owls are not what they seem. -->
+
+  <body class="theme-base-0e ">
+
+    <div class="sidebar">
+
+  <div class="container big-z-logo">
+    <a href="/"><img src="/public/z-negative-space.png" alt="Z"></a>
+  </div>
+
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h2>Zachary Jones</h2>
+      <p class="lead">Full-stack developer and designer in Kansas&nbsp;City,&nbsp;MO.</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+        <a href="/">Home</a>
+      </li>
+
+      
+      
+        
+          
+        
+      
+        
+          
+            <li class="sidebar-nav-item">
+              <a href="/about/">About Me</a>
+            </li>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <li class="sidebar-nav-item">
+              <a href="/stuff-i-use/">Stuff I Use</a>
+            </li>
+          
+        
+      
+
+      <li class="sidebar-nav-item">
+        <a href="/portfolio/">Portfolio</a>
+      </li>
+
+      <li class="sidebar-nav-item">
+        <a href="http://www.linkedin.com/in/zacharytamas/" target="_blank">LinkedIn</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a href="http://twitter.com/zacharytamas" target="_blank">Twitter</a>
+      </li>
+
+    </ul>
+
+    <p>&copy; 2014. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">ES6 Arrow Functions</h1>
+  <span class="post-date">02 Jan 2014</span>
+  <p>Just noticed earlier today that in Firefox version 22 and above ECMASCript 6&#39;s <a href="">CoffeeScript</a>-style arrow functions are available:</p>
+
+<p><img src="/public/posts/arrow-functions-firefox/console.png" width="100%"></p>
+
+<p>It&#39;s interesting seeing how they&#39;re fitting this Coffee concept into the confines of the JavaScript spec.</p>
+
+<p>Of course Coffee uses indentation to denote blocks and JavaScript explicitly requires braces for blocks of longer than one statement, so although we are getting the arrow syntax in ES6 we&#39;ll never get this:</p>
+
+<div class="highlight"><pre><code class="coffeescript">  <span class="nv">sayHello = </span><span class="nf">(person) =&gt;</span>
     <span class="nv">output = </span><span class="s">&#39;Hello &#39;</span> <span class="o">+</span> <span class="nx">person</span>
     <span class="k">return</span> <span class="nx">output</span>
-</code></pre></div> <p>But this current compromise is enough to not fight too much over:</p> <div class="highlight"><pre><code class="javascript">  <span class="kd">var</span> <span class="nx">sayHello</span> <span class="o">=</span> <span class="p">(</span><span class="nx">person</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</code></pre></div>
+
+<p>But this current compromise is enough to not fight too much over:</p>
+
+<div class="highlight"><pre><code class="javascript">  <span class="kd">var</span> <span class="nx">sayHello</span> <span class="o">=</span> <span class="p">(</span><span class="nx">person</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
     <span class="kd">var</span> <span class="nx">output</span> <span class="o">=</span> <span class="s1">&#39;Hello &#39;</span> <span class="o">+</span> <span class="nx">person</span><span class="p">;</span>
     <span class="k">return</span> <span class="nx">output</span><span class="p">;</span>
   <span class="p">}</span>
-</code></pre></div> <p>They are only taking the fat-arrow functionality from Coffee, however, so these arrow functions are always using lexical <code>this</code> which is nice in cases where you need <code>this</code> in your function to refer to the <code>this</code> in scope when the function was defined&mdash;not where it was called.</p> <div class="highlight"><pre><code class="javascript"><span class="c1">// Old way:</span>
+</code></pre></div>
+
+<p>They are only taking the fat-arrow functionality from Coffee, however, so these arrow functions are always using lexical <code>this</code> which is nice in cases where you need <code>this</code> in your function to refer to the <code>this</code> in scope when the function was defined&mdash;not where it was called.</p>
+
+<div class="highlight"><pre><code class="javascript"><span class="c1">// Old way:</span>
 <span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
   <span class="k">this</span><span class="p">.</span><span class="nx">foo</span> <span class="o">=</span> <span class="s1">&#39;bar&#39;</span><span class="p">;</span>
   <span class="kd">var</span> <span class="nx">_this</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
@@ -23,10 +168,26 @@
   <span class="k">this</span><span class="p">.</span><span class="nx">foo</span> <span class="o">=</span> <span class="s1">&#39;bar&#39;</span><span class="p">;</span>
   <span class="k">return</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="k">this</span><span class="p">.</span><span class="nx">foo</span><span class="p">;</span>
 <span class="p">})();</span>
-</code></pre></div> <p>CoffeeScript has two different arrow operators for this purpose: <code>-&gt;</code> which is the standard way where <code>this</code> is dependent on calling context, and the &quot;fat arrow&quot; <code>=&gt;</code> version which provides lexical <code>this</code>.</p> <h3>Optional parenthesis</h3> <p>In Coffee, the parenthesis are optional if-and-only-if the function requires no arguments. This style is convenient because combined with Coffee&#39;s optional parenthesis on function invocation you can very lightweight syntax for common things like:</p> <div class="highlight"><pre><code class="coffeescript"><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span> <span class="nf">-&gt;</span>
+</code></pre></div>
+
+<p>CoffeeScript has two different arrow operators for this purpose: <code>-&gt;</code> which is the standard way where <code>this</code> is dependent on calling context, and the &quot;fat arrow&quot; <code>=&gt;</code> version which provides lexical <code>this</code>.</p>
+
+<h3>Optional parenthesis</h3>
+
+<p>In Coffee, the parenthesis are optional if-and-only-if the function requires no arguments. This style is convenient because combined with Coffee&#39;s optional parenthesis on function invocation you can very lightweight syntax for common things like:</p>
+
+<div class="highlight"><pre><code class="coffeescript"><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span> <span class="nf">-&gt;</span>
   <span class="nx">doStuff</span><span class="p">()</span>
-</code></pre></div> <p>If the function you&#39;re defining accepts named arguments at all, you must provide the parens:</p> <div class="highlight"><pre><code class="coffeescript"><span class="nv">add = </span><span class="nf">(a, b) -&gt;</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span>
-</code></pre></div> <p>In ECMAScript 6 arrow functions, for some reason, the parens are optional when the function accepts <em>only one</em> named argument, and are required for all other cases&mdash;including when no arguments are declared.</p> <div class="highlight"><pre><code class="javascript"><span class="c1">// Parens required.</span>
+</code></pre></div>
+
+<p>If the function you&#39;re defining accepts named arguments at all, you must provide the parens:</p>
+
+<div class="highlight"><pre><code class="coffeescript"><span class="nv">add = </span><span class="nf">(a, b) -&gt;</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span>
+</code></pre></div>
+
+<p>In ECMAScript 6 arrow functions, for some reason, the parens are optional when the function accepts <em>only one</em> named argument, and are required for all other cases&mdash;including when no arguments are declared.</p>
+
+<div class="highlight"><pre><code class="javascript"><span class="c1">// Parens required.</span>
 <span class="kd">var</span> <span class="nx">add</span> <span class="o">=</span> <span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span>
 
 <span class="c1">// Parens not required because only one argument is declared.</span>
@@ -34,11 +195,64 @@
 
 <span class="c1">// Parens required for no arguments</span>
 <span class="kd">var</span> <span class="nx">bark</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Ruff!&#39;</span><span class="p">);</span>
-</code></pre></div> <p>This seems odd and error-prone. By making the parens optional only on the case of one named argument, you really aren&#39;t saving me much at all. In fact, I think without them there makes it even more confusing looking: <em>why is this identifier here? Where did I declare this? Oh, I&#39;m declaring it right now.</em> On the other side, having a pair of empty parens makes me feel like I have leftover cruft from a refactor until I look after it and see the <code>=&gt;</code> and think <em>Ah, this is a function.</em></p> <h3>Implicit return</h3> <p>Another slight quirk: you may have noticed the case where my ES6 arrow-function didn&#39;t have a return statement. If you&#39;re familiar with Ruby, Coffee, or other such languages, you may be familiar with this implicit return of the last expression evaluated. Don&#39;t be fooled however, this rule only applies to arrow functions that are only one expression.</p> <div class="highlight"><pre><code class="javascript">  <span class="kd">var</span> <span class="nx">sayHello</span> <span class="o">=</span> <span class="p">(</span><span class="nx">person</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</code></pre></div>
+
+<p>This seems odd and error-prone. By making the parens optional only on the case of one named argument, you really aren&#39;t saving me much at all. In fact, I think without them there makes it even more confusing looking: <em>why is this identifier here? Where did I declare this? Oh, I&#39;m declaring it right now.</em> On the other side, having a pair of empty parens makes me feel like I have leftover cruft from a refactor until I look after it and see the <code>=&gt;</code> and think <em>Ah, this is a function.</em></p>
+
+<h3>Implicit return</h3>
+
+<p>Another slight quirk: you may have noticed the case where my ES6 arrow-function didn&#39;t have a return statement. If you&#39;re familiar with Ruby, Coffee, or other such languages, you may be familiar with this implicit return of the last expression evaluated. Don&#39;t be fooled however, this rule only applies to arrow functions that are only one expression.</p>
+
+<div class="highlight"><pre><code class="javascript">  <span class="kd">var</span> <span class="nx">sayHello</span> <span class="o">=</span> <span class="p">(</span><span class="nx">person</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
     <span class="kd">var</span> <span class="nx">output</span> <span class="o">=</span> <span class="s1">&#39;Hello &#39;</span> <span class="o">+</span> <span class="nx">person</span><span class="p">;</span>
     <span class="k">return</span> <span class="nx">output</span><span class="p">;</span>  <span class="c1">// this return is required</span>
   <span class="p">}</span>
 
   <span class="c1">// no return required</span>
   <span class="kd">var</span> <span class="nx">sayHello</span> <span class="o">=</span> <span class="p">(</span><span class="nx">person</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="s1">&#39;Hello &#39;</span> <span class="o">+</span> <span class="nx">person</span><span class="p">;</span>
-</code></pre></div> <hr> <h2>We So Excited</h2> <p>All in all, though, I&#39;m excited to see some of the things coming in ES6. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/ECMAScript_6_support_in_Mozilla">Mozilla seems to be leading the pack</a> of implementing features as soon as they reach <a href="http://www.ecma-international.org/memento/TC39.htm">TC39</a> consensus which is very exciting. It feels like there&#39;s a pretty bright future ahead for JavaScript as the community is finally starting to take it seriously in the past several years.</p> <p><strong>Update:</strong> If you&#39;d like to use ES6 arrow functions now you can play around with Square&#39;s <code>es6-arrow-function</code> <a href="https://github.com/square/es6-arrow-function">project from Github</a>. Seems like you could include it in your Grunt build process to extrapolate arrow functions you write in your code into their ES5 equivalents.</p> </div> <div class="comments"> <div id="disqus_thread"></div> <script type="text/javascript">var disqus_shortname="zacharytamas";(function(){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src="//"+disqus_shortname+".disqus.com/embed.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)})();</script> <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a> </div> </div> <script>(function(d,e,j,h,f,c,b){d.GoogleAnalyticsObject=f;d[f]=d[f]||function(){(d[f].q=d[f].q||[]).push(arguments)},d[f].l=1*new Date();c=e.createElement(j),b=e.getElementsByTagName(j)[0];c.async=1;c.src=h;b.parentNode.insertBefore(c,b)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-11164103-5","zacharytamas.me");ga("send","pageview");</script> </body> </html>
+</code></pre></div>
+
+<hr>
+
+<h2>We So Excited</h2>
+
+<p>All in all, though, I&#39;m excited to see some of the things coming in ES6. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/ECMAScript_6_support_in_Mozilla">Mozilla seems to be leading the pack</a> of implementing features as soon as they reach <a href="http://www.ecma-international.org/memento/TC39.htm">TC39</a> consensus which is very exciting. It feels like there&#39;s a pretty bright future ahead for JavaScript as the community is finally starting to take it seriously in the past several years.</p>
+
+<p><strong>Update:</strong> If you&#39;d like to use ES6 arrow functions now you can play around with Square&#39;s <code>es6-arrow-function</code> <a href="https://github.com/square/es6-arrow-function">project from Github</a>. Seems like you could include it in your Grunt build process to extrapolate arrow functions you write in your code into their ES5 equivalents.</p>
+
+</div>
+
+
+
+
+  <div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+
+        var disqus_shortname = 'zacharytamas';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+
+
+    </div>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-11164103-5', 'zacharytamas.me'); ga('send', 'pageview');
+</script>
+
+
+  </body>
+</html>

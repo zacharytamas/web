@@ -1,8 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>zacharytamas - Links</title><link href="http://blog.zacharytamas.me/atom.xml" rel="self"/><link href="http://blog.zacharytamas.me/"/><updated>2014-01-26T21:58:46-06:00</updated><id>http://blog.zacharytamas.me</id><author><name>Zachary Jones</name><email></email></author><entry><title>Coding in color</title><link href="https://medium.com/p/3a6db2743a1e/"/><updated>2014-01-26T00:00:00-06:00</updated><id>https://medium.com/p/3a6db2743a1e/</id><content type="html">This is a cool idea. I&#39;ve never actually thought about syntax highlighting, but now that I do, it does seem kind of not terribly helpful. I definitely notice it if it&#39;s not there, but I&#39;m not sure I could tell you the specific color of a piece of code (variable declarations are blue, etc.). It&#39;s entirely subconscious.
-</content></entry><entry><title>A Nerd in a Cave</title><link href="http://randsinrepose.com/archives/a-nerd-in-a-cave/"/><updated>2014-01-23T00:00:00-06:00</updated><id>http://randsinrepose.com/archives/a-nerd-in-a-cave/</id><content type="html">Way too much honesty here. The Zone we creative types work in is such a fickle thing, leading to irrational responses to anything that threatens it while we&#39;re in it. A nice write-up for friends and significant-others of creative types, explaining why if you interrupt The Zone and we&#39;re mean to you, we&#39;re sorry, but it&#39;s no one&#39;s fault.
-</content></entry><entry><title>Trello boards made to load 87% faster</title><link href="http://blog.fogcreek.com/we-spent-a-week-making-trello-boards-load-extremely-fast-heres-how-we-did-it/"/><updated>2014-01-22T00:00:00-06:00</updated><id>http://blog.fogcreek.com/we-spent-a-week-making-trello-boards-load-extremely-fast-heres-how-we-did-it/</id><content type="html">A &lt;b&gt;really&lt;/b&gt; nice write-up about how to tackle common front-end application performance bottlenecks. I&#39;ve employed a few of these tricks myself in the past to achieve better performance in slower browsers (I&#39;m looking at you, IE).
-</content></entry><entry><title>EasyStar.js</title><link href="http://www.easystarjs.com/"/><updated>2014-01-21T00:00:00-06:00</updated><id>http://www.easystarjs.com/</id><content type="html">This is a really cool pathfinding library using the A* Search Algorithm. It&#39;s designed for adding to your games and other JavaScript apps where pathfinding plays a role. Check out their website for a snazzy demonstration of the library guiding a group of soldiers across a randomly generated terrain.
-</content></entry><entry><title>Who Owns?</title><link href="http://zachholman.com/posts/who-owns/"/><updated>2014-01-15T00:00:00-06:00</updated><id>http://zachholman.com/posts/who-owns/</id><content type="html">Nice article here by Zach Holman discussing insecurity around public expression on the web.
-</content></entry><entry><title>Symbolset icons</title><link href="http://symbolset.com/icons"/><updated>2014-01-14T00:00:00-06:00</updated><id>http://symbolset.com/icons</id><content type="html">This is a really nice collection of icons for purchase. Might have to keep my eye on these for future use.
-</content></entry><entry><title>4K is for programmers</title><link href="http://tiamat.tsotech.com/4k-is-for-programmers"/><updated>2014-01-10T00:00:00-06:00</updated><id>http://tiamat.tsotech.com/4k-is-for-programmers</id><content type="html">Interesting read about using a low-price 4K television as a computer display for development. I&#39;m not sure how I feel about using this high of resolution as a computer display, though. It&#39;s entirely too many pixels for me, I feel like.
-</content></entry></feed>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>zacharytamas - Links</title>
+ <link href="http://blog.zacharytamas.me/atom.xml" rel="self"/>
+ <link href="http://blog.zacharytamas.me/"/>
+ <updated>2014-01-29T22:52:13-06:00</updated>
+ <id>http://blog.zacharytamas.me</id>
+ <author>
+   <name>Zachary Jones</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>CoffeeScript 1.7 released</title>
+   <link href="http://coffeescript.org/#changelog"/>
+   <updated>2014-01-29T00:00:00-06:00</updated>
+   <id>http://coffeescript.org/#changelog</id>
+   <content type="html">New version of CoffeeScript is released today. Pretty cool enhancements but none I&#39;m super excited about it, though. The new operators are pretty cool, however. I haven&#39;t been using Coffee lately as much as I used to, even sometimes electing to use JS when I could have used Coffee. Not sure why that is.
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Internet Explorer (8) Array.sort Unreliable</title>
+   <link href="http://www.zachleat.com/web/array-sort/"/>
+   <updated>2014-01-29T00:00:00-06:00</updated>
+   <id>http://www.zachleat.com/web/array-sort/</id>
+   <content type="html">Fought this dumb bug at work today. In sorting functions given to Array.prototype.sort() in JavaScript, if you reassign argument variables&#39; values in the function, IE8 may completely break on you, sometimes resulting in one or both of your comparison values becoming undefined randomly. Though it makes no sense JavaScript-wise, to fix this bug, you have to declare your own, separate variables for your values.
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Coding in color</title>
+   <link href="https://medium.com/p/3a6db2743a1e/"/>
+   <updated>2014-01-26T00:00:00-06:00</updated>
+   <id>https://medium.com/p/3a6db2743a1e/</id>
+   <content type="html">This is a cool idea. I&#39;ve never actually thought about syntax highlighting, but now that I do, it does seem kind of not terribly helpful. I definitely notice it if it&#39;s not there, but I&#39;m not sure I could tell you the specific color of a piece of code (variable declarations are blue, etc.). It&#39;s entirely subconscious.
+</content>
+ </entry>
+ 
+ <entry>
+   <title>A Nerd in a Cave</title>
+   <link href="http://randsinrepose.com/archives/a-nerd-in-a-cave/"/>
+   <updated>2014-01-23T00:00:00-06:00</updated>
+   <id>http://randsinrepose.com/archives/a-nerd-in-a-cave/</id>
+   <content type="html">Way too much honesty here. The Zone we creative types work in is such a fickle thing, leading to irrational responses to anything that threatens it while we&#39;re in it. A nice write-up for friends and significant-others of creative types, explaining why if you interrupt The Zone and we&#39;re mean to you, we&#39;re sorry, but it&#39;s no one&#39;s fault.
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Trello boards made to load 87% faster</title>
+   <link href="http://blog.fogcreek.com/we-spent-a-week-making-trello-boards-load-extremely-fast-heres-how-we-did-it/"/>
+   <updated>2014-01-22T00:00:00-06:00</updated>
+   <id>http://blog.fogcreek.com/we-spent-a-week-making-trello-boards-load-extremely-fast-heres-how-we-did-it/</id>
+   <content type="html">A &lt;b&gt;really&lt;/b&gt; nice write-up about how to tackle common front-end application performance bottlenecks. I&#39;ve employed a few of these tricks myself in the past to achieve better performance in slower browsers (I&#39;m looking at you, IE).
+</content>
+ </entry>
+ 
+ <entry>
+   <title>EasyStar.js</title>
+   <link href="http://www.easystarjs.com/"/>
+   <updated>2014-01-21T00:00:00-06:00</updated>
+   <id>http://www.easystarjs.com/</id>
+   <content type="html">This is a really cool pathfinding library using the A* Search Algorithm. It&#39;s designed for adding to your games and other JavaScript apps where pathfinding plays a role. Check out their website for a snazzy demonstration of the library guiding a group of soldiers across a randomly generated terrain.
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Who Owns?</title>
+   <link href="http://zachholman.com/posts/who-owns/"/>
+   <updated>2014-01-15T00:00:00-06:00</updated>
+   <id>http://zachholman.com/posts/who-owns/</id>
+   <content type="html">Nice article here by Zach Holman discussing insecurity around public expression on the web.
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Symbolset icons</title>
+   <link href="http://symbolset.com/icons"/>
+   <updated>2014-01-14T00:00:00-06:00</updated>
+   <id>http://symbolset.com/icons</id>
+   <content type="html">This is a really nice collection of icons for purchase. Might have to keep my eye on these for future use.
+</content>
+ </entry>
+ 
+ <entry>
+   <title>4K is for programmers</title>
+   <link href="http://tiamat.tsotech.com/4k-is-for-programmers"/>
+   <updated>2014-01-10T00:00:00-06:00</updated>
+   <id>http://tiamat.tsotech.com/4k-is-for-programmers</id>
+   <content type="html">Interesting read about using a low-price 4K television as a computer display for development. I&#39;m not sure how I feel about using this high of resolution as a computer display, though. It&#39;s entirely too many pixels for me, I feel like.
+</content>
+ </entry>
+ 
+
+</feed>

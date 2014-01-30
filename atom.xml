@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>zacharytamas</title><link href="http://blog.zacharytamas.me/atom.xml" rel="self"/><link href="http://blog.zacharytamas.me/"/><updated>2014-01-26T21:58:46-06:00</updated><id>http://blog.zacharytamas.me</id><author><name>Zachary Jones</name><email></email></author><entry><title>How I Work: Coding</title><link href="http://blog.zacharytamas.me/2014/01/20/how-i-work-coding/"/><updated>2014-01-20T00:00:00-06:00</updated><id>http://blog.zacharytamas.me/2014/01/20/how-i-work-coding</id><content type="html">&lt;p&gt;My primary development tool is none other than &lt;a href=&quot;http://www.sublimetext.com/2&quot;&gt;Sublime Text 2&lt;/a&gt;. It is my goto text editor for most everything. For programming, I use it exclusively. I have a &lt;a href=&quot;http://www.jetbrains.com/pycharm/&quot;&gt;PyCharm&lt;/a&gt; license &lt;a href=&quot;/portfolio/lights-on/&quot;&gt;my employer&lt;/a&gt; bought my team but I could never get into it. Aside from programming, I use Sublime Text for basically everything else as well, including taking notes, drafting letters, making on-the-spot todo lists, etc. I&amp;#39;m even writing this post in Sublime Text right now using the Markdown format.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>zacharytamas</title>
+ <link href="http://blog.zacharytamas.me/atom.xml" rel="self"/>
+ <link href="http://blog.zacharytamas.me/"/>
+ <updated>2014-01-29T22:52:13-06:00</updated>
+ <id>http://blog.zacharytamas.me</id>
+ <author>
+   <name>Zachary Jones</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>How I Work: Coding</title>
+   <link href="http://blog.zacharytamas.me/2014/01/20/how-i-work-coding/"/>
+   <updated>2014-01-20T00:00:00-06:00</updated>
+   <id>http://blog.zacharytamas.me/2014/01/20/how-i-work-coding</id>
+   <content type="html">&lt;p&gt;My primary development tool is none other than &lt;a href=&quot;http://www.sublimetext.com/2&quot;&gt;Sublime Text 2&lt;/a&gt;. It is my goto text editor for most everything. For programming, I use it exclusively. I have a &lt;a href=&quot;http://www.jetbrains.com/pycharm/&quot;&gt;PyCharm&lt;/a&gt; license &lt;a href=&quot;/portfolio/lights-on/&quot;&gt;my employer&lt;/a&gt; bought my team but I could never get into it. Aside from programming, I use Sublime Text for basically everything else as well, including taking notes, drafting letters, making on-the-spot todo lists, etc. I&amp;#39;m even writing this post in Sublime Text right now using the Markdown format.&lt;/p&gt;
 
 &lt;h3&gt;Plugins I Use&lt;/h3&gt;
 
@@ -28,7 +47,15 @@
 &lt;/div&gt;
 
 &lt;p&gt;When I&amp;#39;m really in the zone and familiar with the codebase, I&amp;#39;ll hide the sidebar altogether and work with just the currently open file. Using Sublime&amp;#39;s &lt;em&gt;awesome&lt;/em&gt; &lt;code&gt;Goto Anything...&lt;/code&gt; feature you can easily hop between files in the codebase if you&amp;#39;re familiar enough. I like doing this as it&amp;#39;s faster than searching through the sidebar manually.&lt;/p&gt;
-</content></entry><entry><title>Annual Goals</title><link href="http://blog.zacharytamas.me/2014/01/12/annual-goals/"/><updated>2014-01-12T00:00:00-06:00</updated><id>http://blog.zacharytamas.me/2014/01/12/annual-goals</id><content type="html">&lt;p&gt;I&amp;#39;m not really one to set &amp;quot;resolutions&amp;quot; for a new year, but I do however set high-level goals for what I&amp;#39;d like to accomplish during a year. I try to be general but yet still specific in doing this.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Annual Goals</title>
+   <link href="http://blog.zacharytamas.me/2014/01/12/annual-goals/"/>
+   <updated>2014-01-12T00:00:00-06:00</updated>
+   <id>http://blog.zacharytamas.me/2014/01/12/annual-goals</id>
+   <content type="html">&lt;p&gt;I&amp;#39;m not really one to set &amp;quot;resolutions&amp;quot; for a new year, but I do however set high-level goals for what I&amp;#39;d like to accomplish during a year. I try to be general but yet still specific in doing this.&lt;/p&gt;
 
 &lt;p&gt;My goal for 2013 was:&lt;/p&gt;
 
@@ -57,7 +84,15 @@
 &lt;p&gt;Design is a latent talent I&amp;#39;ve always wished to have time to develop and thus is my goal for this year. This very website is a part of this goal: having designed, implemented, and written the copy over the course of a week. I&amp;#39;m sure it will iteratively get better throughout the year, but as an exercise over a week&amp;#39;s worth of nights, I am very pleased with what I&amp;#39;ve accomplished.&lt;/p&gt;
 
 &lt;p&gt;So come along, let&amp;#39;s all hone our crafts and do even better work this year.&lt;/p&gt;
-</content></entry><entry><title>ES6 Arrow Functions</title><link href="http://blog.zacharytamas.me/2014/01/02/es6-arrow-functions/"/><updated>2014-01-02T00:00:00-06:00</updated><id>http://blog.zacharytamas.me/2014/01/02/es6-arrow-functions</id><content type="html">&lt;p&gt;Just noticed earlier today that in Firefox version 22 and above ECMASCript 6&amp;#39;s &lt;a href=&quot;&quot;&gt;CoffeeScript&lt;/a&gt;-style arrow functions are available:&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>ES6 Arrow Functions</title>
+   <link href="http://blog.zacharytamas.me/2014/01/02/es6-arrow-functions/"/>
+   <updated>2014-01-02T00:00:00-06:00</updated>
+   <id>http://blog.zacharytamas.me/2014/01/02/es6-arrow-functions</id>
+   <content type="html">&lt;p&gt;Just noticed earlier today that in Firefox version 22 and above ECMASCript 6&amp;#39;s &lt;a href=&quot;&quot;&gt;CoffeeScript&lt;/a&gt;-style arrow functions are available:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/public/posts/arrow-functions-firefox/console.png&quot; width=&quot;100%&quot;&gt;&lt;/p&gt;
 
@@ -149,4 +184,8 @@
 &lt;p&gt;All in all, though, I&amp;#39;m excited to see some of the things coming in ES6. &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/ECMAScript_6_support_in_Mozilla&quot;&gt;Mozilla seems to be leading the pack&lt;/a&gt; of implementing features as soon as they reach &lt;a href=&quot;http://www.ecma-international.org/memento/TC39.htm&quot;&gt;TC39&lt;/a&gt; consensus which is very exciting. It feels like there&amp;#39;s a pretty bright future ahead for JavaScript as the community is finally starting to take it seriously in the past several years.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; If you&amp;#39;d like to use ES6 arrow functions now you can play around with Square&amp;#39;s &lt;code&gt;es6-arrow-function&lt;/code&gt; &lt;a href=&quot;https://github.com/square/es6-arrow-function&quot;&gt;project from Github&lt;/a&gt;. Seems like you could include it in your Grunt build process to extrapolate arrow functions you write in your code into their ES5 equivalents.&lt;/p&gt;
-</content></entry></feed>
+</content>
+ </entry>
+ 
+
+</feed>
