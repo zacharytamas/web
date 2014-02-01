@@ -4,13 +4,22 @@
  <title>zacharytamas - Links</title>
  <link href="http://blog.zacharytamas.me/atom.xml" rel="self"/>
  <link href="http://blog.zacharytamas.me/"/>
- <updated>2014-01-29T22:52:13-06:00</updated>
+ <updated>2014-01-31T20:48:47-06:00</updated>
  <id>http://blog.zacharytamas.me</id>
  <author>
    <name>Zachary Jones</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Dev Ops cheatsheet</title>
+   <link href="http://rubytune.com/cheat"/>
+   <updated>2014-01-30T00:00:00-06:00</updated>
+   <id>http://rubytune.com/cheat</id>
+   <content type="html">This is a handy reference for some interesting devops-y tips and tricks. The page says Ruby, but most of the things listed are general practice and not specifically Ruby.
+</content>
+ </entry>
  
  <entry>
    <title>CoffeeScript 1.7 released</title>
