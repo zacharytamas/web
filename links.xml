@@ -4,13 +4,22 @@
  <title>zacharytamas - Links</title>
  <link href="http://blog.zacharytamas.me/atom.xml" rel="self"/>
  <link href="http://blog.zacharytamas.me/"/>
- <updated>2014-01-31T20:48:47-06:00</updated>
+ <updated>2014-02-03T20:40:08-06:00</updated>
  <id>http://blog.zacharytamas.me</id>
  <author>
    <name>Zachary Jones</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Chromecast now open to developers with the Google Cast SDK</title>
+   <link href="http://googledevelopers.blogspot.com/2014/02/ready-to-cast-chromecast-now-open-to.html"/>
+   <updated>2014-02-03T00:00:00-06:00</updated>
+   <id>http://googledevelopers.blogspot.com/2014/02/ready-to-cast-chromecast-now-open-to.html</id>
+   <content type="html">This is pretty cool. My roommate has a TV that accepts casts from certain applications such as YouTube and we&#39;ve had some fun with playing with the JavaScript SDK to push random videos to the TV at any time. I might have Rick Rolled him in the middle of watching TV before...
+</content>
+ </entry>
  
  <entry>
    <title>Dev Ops cheatsheet</title>
