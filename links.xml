@@ -4,13 +4,22 @@
  <title>zacharytamas - Links</title>
  <link href="http://blog.zacharytamas.me/atom.xml" rel="self"/>
  <link href="http://blog.zacharytamas.me/"/>
- <updated>2014-02-03T20:40:08-06:00</updated>
+ <updated>2014-02-06T19:40:22-06:00</updated>
  <id>http://blog.zacharytamas.me</id>
  <author>
    <name>Zachary Jones</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Sigma.js</title>
+   <link href="http://sigmajs.org/"/>
+   <updated>2014-02-06T00:00:00-06:00</updated>
+   <id>http://sigmajs.org/</id>
+   <content type="html">I&#39;m looking forward to playing with this to generate all kinds of directed graphs for visualizations, even if I just use it to make fancy wallpapers for my tablet or something. Can&#39;t think of an immediate use for this but I&#39;ll keep it in the back of my mind.
+</content>
+ </entry>
  
  <entry>
    <title>Chromecast now open to developers with the Google Cast SDK</title>
