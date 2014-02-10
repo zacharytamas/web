@@ -4,13 +4,22 @@
  <title>zacharytamas - Links</title>
  <link href="http://blog.zacharytamas.me/atom.xml" rel="self"/>
  <link href="http://blog.zacharytamas.me/"/>
- <updated>2014-02-06T19:52:19-06:00</updated>
+ <updated>2014-02-09T20:20:40-06:00</updated>
  <id>http://blog.zacharytamas.me</id>
  <author>
    <name>Zachary Jones</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>A simple guide to responsive design.</title>
+   <link href="http://www.adamkaplan.me/grid/"/>
+   <updated>2014-02-09T00:00:00-06:00</updated>
+   <id>http://www.adamkaplan.me/grid/</id>
+   <content type="html">Sweet little guide to the basics of responsive design and how to start implementing it.
+</content>
+ </entry>
  
  <entry>
    <title>Sigma.js</title>
