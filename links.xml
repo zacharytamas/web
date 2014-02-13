@@ -4,13 +4,22 @@
  <title>zacharytamas - Links</title>
  <link href="http://blog.zacharytamas.me/atom.xml" rel="self"/>
  <link href="http://blog.zacharytamas.me/"/>
- <updated>2014-02-09T20:20:40-06:00</updated>
+ <updated>2014-02-12T23:32:47-06:00</updated>
  <id>http://blog.zacharytamas.me</id>
  <author>
    <name>Zachary Jones</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Emphasis</title>
+   <link href="http://open.blogs.nytimes.com/2011/01/11/emphasis-update-and-source/"/>
+   <updated>2014-02-12T00:00:00-06:00</updated>
+   <id>http://open.blogs.nytimes.com/2011/01/11/emphasis-update-and-source/</id>
+   <content type="html">This is an interesting concept for creating permalinks to places inside content that can change. When content such as online news articles changes, the relative position of sentences can change, causing naive links that point to, for example, the n-th paragraph of an article to become wrong. Emphasis is a cool idea for creating smarter permalinks that always point to the same content, even when an article has been drastically revised.
+</content>
+ </entry>
  
  <entry>
    <title>A simple guide to responsive design.</title>
@@ -63,15 +72,6 @@
    <updated>2014-01-29T00:00:00-06:00</updated>
    <id>http://www.zachleat.com/web/array-sort/</id>
    <content type="html">Fought this dumb bug at work today. In sorting functions given to Array.prototype.sort() in JavaScript, if you reassign argument variables&#39; values in the function, IE8 may completely break on you, sometimes resulting in one or both of your comparison values becoming undefined randomly. Though it makes no sense JavaScript-wise, to fix this bug, you have to declare your own, separate variables for your values.
-</content>
- </entry>
- 
- <entry>
-   <title>Coding in color</title>
-   <link href="https://medium.com/p/3a6db2743a1e/"/>
-   <updated>2014-01-26T00:00:00-06:00</updated>
-   <id>https://medium.com/p/3a6db2743a1e/</id>
-   <content type="html">This is a cool idea. I&#39;ve never actually thought about syntax highlighting, but now that I do, it does seem kind of not terribly helpful. I definitely notice it if it&#39;s not there, but I&#39;m not sure I could tell you the specific color of a piece of code (variable declarations are blue, etc.). It&#39;s entirely subconscious.
 </content>
  </entry>
  
