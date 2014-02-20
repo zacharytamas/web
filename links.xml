@@ -4,13 +4,22 @@
  <title>zacharytamas - Links</title>
  <link href="http://blog.zacharytamas.me/atom.xml" rel="self"/>
  <link href="http://blog.zacharytamas.me/"/>
- <updated>2014-02-12T23:32:47-06:00</updated>
+ <updated>2014-02-19T22:30:04-06:00</updated>
  <id>http://blog.zacharytamas.me</id>
  <author>
    <name>Zachary Jones</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>JS the Right Way</title>
+   <link href="http://jstherightway.org/"/>
+   <updated>2014-02-18T00:00:00-06:00</updated>
+   <id>http://jstherightway.org/</id>
+   <content type="html">This is a cool collection of resources for learning how to write JavaScript &quot;the right way&quot;. I&#39;m always a fan of doing things the right way, even if it takes a little longer or more effort, so this was well appreciated. A lot of things here I already know and do instinctively, but the lists of design patterns and testing tools were a great reference.
+</content>
+ </entry>
  
  <entry>
    <title>Emphasis</title>
