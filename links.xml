@@ -4,13 +4,40 @@
  <title>zacharytamas - Links</title>
  <link href="http://blog.zacharytamas.me/atom.xml" rel="self"/>
  <link href="http://blog.zacharytamas.me/"/>
- <updated>2014-02-19T22:30:04-06:00</updated>
+ <updated>2014-03-13T19:42:45-05:00</updated>
  <id>http://blog.zacharytamas.me</id>
  <author>
    <name>Zachary Jones</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>An introduction to Functional Reactive Programming and Bacon.js</title>
+   <link href="http://vimeo.com/68987289"/>
+   <updated>2014-03-12T00:00:00-05:00</updated>
+   <id>http://vimeo.com/68987289</id>
+   <content type="html">While this is a completely different way of thinking about building front-end applications, it&#39;s pretty interesting. It&#39;s definitely going to take some time for me to get used to it but I think this is a pretty cool thing to explore.
+</content>
+ </entry>
+ 
+ <entry>
+   <title>A Readable Wikipedia</title>
+   <link href="http://blog.weare1910.com/post/75576312730/a-readable-wikipedia"/>
+   <updated>2014-02-28T00:00:00-06:00</updated>
+   <id>http://blog.weare1910.com/post/75576312730/a-readable-wikipedia</id>
+   <content type="html">I love this imagining of a more readable Wikipedia design. It&#39;s definitely true that Wikipedia as it stands is horribly designed, with poor typography and overly cluttered sidebars. I&#39;d really enjoy seeing something like this become a reality.
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Unofficial Google Play Music Mac app</title>
+   <link href="http://kbhomes.github.io/google-music-mac/"/>
+   <updated>2014-02-23T00:00:00-06:00</updated>
+   <id>http://kbhomes.github.io/google-music-mac/</id>
+   <content type="html">This will be taken down soon probably due to copyright, but this is a really handy tool. I use Google Play Music and it is very frustrating that the app is a second-class citizen on my computer. You can alleviate some of the issues with Chrome plugins that proxy the media keys through to the tab Google Music is open in, but even aside that I&#39;ve found that the webapp is buggy in Chrome (at least). This desktop app (which is just a Webkit wrapper) has been performing perfectly for me, surprisingly.
+</content>
+ </entry>
  
  <entry>
    <title>JS the Right Way</title>
