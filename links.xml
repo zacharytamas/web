@@ -4,13 +4,22 @@
  <title>zacharytamas - Links</title>
  <link href="http://blog.zacharytamas.me/atom.xml" rel="self"/>
  <link href="http://blog.zacharytamas.me/"/>
- <updated>2014-03-22T22:01:15-05:00</updated>
+ <updated>2014-04-01T20:22:36-05:00</updated>
  <id>http://blog.zacharytamas.me</id>
  <author>
    <name>Zachary Jones</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Spotify engineering culture</title>
+   <link href="http://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/"/>
+   <updated>2014-04-01T00:00:00-05:00</updated>
+   <id>http://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/</id>
+   <content type="html">This is an awesome video explaining Spotify&#39;s engineering culture. Definitely a great watch with lots of interesting concepts to consider. Looks like a very health environment for engineers at Spotify.
+</content>
+ </entry>
  
  <entry>
    <title>An introduction to Functional Reactive Programming and Bacon.js</title>
