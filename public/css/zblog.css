@@ -41,7 +41,7 @@ ul.posts-big-list {
 }
 ul.posts-big-list li {
   padding: 0.5rem 0;
-  border-bottom: 1px rgba(255, 255, 255, 0.2) solid;
+  border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
 }
 ul.posts-big-list li:last-child {
   border-bottom: none;
@@ -71,18 +71,12 @@ dl dd + dt {
 dl dd {
   margin-bottom: 0.25em;
 }
-body.front {
-  background: rgba(170, 117, 159, 0.9);
-}
-body.front a {
-  color: #fff !important;
-}
 body.front h1 {
   color: rgba(0, 0, 0, 0.7);
 }
 article.link-listing {
   margin-bottom: 1rem;
-  border-bottom: 1px rgba(255, 255, 255, 0.2) solid;
+  border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
 }
 article.link-listing a {
   text-decoration: underline;
@@ -96,5 +90,5 @@ article.link-listing .date {
 }
 article.link-listing p {
   max-width: 28rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }

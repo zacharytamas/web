@@ -4,13 +4,31 @@
  <title>zacharytamas - Links</title>
  <link href="http://blog.zacharytamas.me/atom.xml" rel="self"/>
  <link href="http://blog.zacharytamas.me/"/>
- <updated>2014-04-01T20:22:36-05:00</updated>
+ <updated>2014-04-30T11:00:38-05:00</updated>
  <id>http://blog.zacharytamas.me</id>
  <author>
    <name>Zachary Jones</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Detecting duplicate images with Python</title>
+   <link href="http://blog.iconfinder.com/detecting-duplicate-images-using-python/"/>
+   <updated>2014-04-29T00:00:00-05:00</updated>
+   <id>http://blog.iconfinder.com/detecting-duplicate-images-using-python/</id>
+   <content type="html">Cool algorithm for detecting visually duplicate images and being able to tell in constant time if your database already contains a particular image. This will be very helpful for an app idea that I&#39;m working on in my spare time.
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Do you really know JavaScript?</title>
+   <link href="http://javascript-puzzlers.herokuapp.com/"/>
+   <updated>2014-04-14T00:00:00-05:00</updated>
+   <id>http://javascript-puzzlers.herokuapp.com/</id>
+   <content type="html">A coworker shared this on Twitter a while back and I thought it was cool. It presents a quiz about JavaScript quirks that is almost impossibly hard to pass with a decent score, even for the most proficient JavaScripter.
+</content>
+ </entry>
  
  <entry>
    <title>Spotify engineering culture</title>
