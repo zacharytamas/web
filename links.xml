@@ -4,13 +4,22 @@
  <title>zacharytamas - Links</title>
  <link href="http://blog.zacharytamas.me/atom.xml" rel="self"/>
  <link href="http://blog.zacharytamas.me/"/>
- <updated>2014-04-30T11:00:38-05:00</updated>
+ <updated>2014-05-06T16:06:46-05:00</updated>
  <id>http://blog.zacharytamas.me</id>
  <author>
    <name>Zachary Jones</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>A Guide to the Good Life</title>
+   <link href="http://leoexplor.es/great-books/2012/09/24/a-guide-to-the-good-life/"/>
+   <updated>2014-05-05T00:00:00-05:00</updated>
+   <id>http://leoexplor.es/great-books/2012/09/24/a-guide-to-the-good-life/</id>
+   <content type="html">This is a very nice summary of the book &#39;A Guide to the Good Life&#39; by William B. Irvine. I&#39;ve been really into philosophy and developing emotional intelligence the past several months and it was an interesting read with great insights about life and how we experience it, as well as how our brains influence that experience.
+</content>
+ </entry>
  
  <entry>
    <title>Detecting duplicate images with Python</title>
