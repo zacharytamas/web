@@ -4,13 +4,22 @@
  <title>zacharytamas - Links</title>
  <link href="http://blog.zacharytamas.me/atom.xml" rel="self"/>
  <link href="http://blog.zacharytamas.me/"/>
- <updated>2014-05-06T16:06:46-05:00</updated>
+ <updated>2014-05-14T14:16:58-05:00</updated>
  <id>http://blog.zacharytamas.me</id>
  <author>
    <name>Zachary Jones</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Twenty rules of formulating knowledge</title>
+   <link href="http://www.supermemo.com/articles/20rules.htm"/>
+   <updated>2014-05-14T00:00:00-05:00</updated>
+   <id>http://www.supermemo.com/articles/20rules.htm</id>
+   <content type="html">Very awesome write-up about the art of taking knowledge and formulating it into an optimally learnable form. I already used several of these techniques intuitively but others are very interesting bits of neuroscience/psychology to know. I apply these kinds of concepts to distilling things down into Anki cards for long-term learning.
+</content>
+ </entry>
  
  <entry>
    <title>A Guide to the Good Life</title>
