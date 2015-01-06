@@ -1,3 +1,44 @@
+.theme-base-0e .sidebar {
+  background-color: #4caf50;
+}
+.theme-base-0e .content a,
+.theme-base-0e .related-posts li a:hover {
+  color: #1b5e20;
+}
+body.front-page {
+  background: #4caf50;
+}
+body.front-page .container {
+  max-width: 32rem;
+}
+body.front-page mark {
+  background-color: #a5d6a7;
+  padding: 2px 5px;
+  color: #1b5e20;
+}
+body.front-page p.lead {
+  font-weight: 600;
+  color: #ffffff;
+}
+body.front-page a {
+  text-decoration: underline;
+  color: #fff;
+}
+body.front-page a:hover {
+  text-decoration: none;
+}
+body.front-page footer {
+  margin: 5ex 0;
+  text-align: center;
+  font-size: 0.8rem;
+}
+body.front-page section {
+  margin-top: 5ex;
+}
+body.front-page section > h1 {
+  color: #b9f6ca;
+  font-size: 1.5em;
+}
 li > ul {
   margin-bottom: 0;
 }
@@ -38,6 +79,7 @@ h1.masthead {
 ul.posts-big-list {
   list-style-type: none;
   padding-left: 0;
+  border-top: 1px rgba(0, 0, 0, 0.2) solid;
 }
 ul.posts-big-list li {
   padding: 0.5rem 0;
@@ -47,8 +89,8 @@ ul.posts-big-list li:last-child {
   border-bottom: none;
 }
 ul.posts-big-list li a {
-  font-size: 1.2rem;
   font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
 }
 ul.posts-big-list li span {
   float: right;
@@ -61,7 +103,7 @@ dl.larger-text dd {
   font-size: 1.25em;
 }
 dl dt {
-  color: #001823;
+  color: #1b5e20;
   text-transform: uppercase;
   margin-bottom: 0.5em;
 }
@@ -71,12 +113,10 @@ dl dd + dt {
 dl dd {
   margin-bottom: 0.25em;
 }
-body.front h1 {
-  color: rgba(0, 0, 0, 0.7);
-}
 article.link-listing {
   margin-bottom: 1rem;
   border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
+  font-size: 0.9rem;
 }
 article.link-listing a {
   text-decoration: underline;
@@ -87,8 +127,5 @@ article.link-listing a:hover {
 article.link-listing .date {
   font-size: 0.75rem;
   margin: 0 .5rem;
-}
-article.link-listing p {
-  max-width: 28rem;
-  color: rgba(0, 0, 0, 0.8);
+  display: inline-block;
 }

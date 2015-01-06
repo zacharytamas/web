@@ -4,7 +4,7 @@
  <title>zacharytamas - Links</title>
  <link href="http://blog.zacharytamas.me/atom.xml" rel="self"/>
  <link href="http://blog.zacharytamas.me/"/>
- <updated>2014-05-14T14:16:58-05:00</updated>
+ <updated>2015-01-06T15:32:13-05:00</updated>
  <id>http://blog.zacharytamas.me</id>
  <author>
    <name>Zachary Jones</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>Twenty rules of formulating knowledge</title>
    <link href="http://www.supermemo.com/articles/20rules.htm"/>
-   <updated>2014-05-14T00:00:00-05:00</updated>
+   <updated>2014-05-14T00:00:00-04:00</updated>
    <id>http://www.supermemo.com/articles/20rules.htm</id>
    <content type="html">Very awesome write-up about the art of taking knowledge and formulating it into an optimally learnable form. I already used several of these techniques intuitively but others are very interesting bits of neuroscience/psychology to know. I apply these kinds of concepts to distilling things down into Anki cards for long-term learning.
 </content>
@@ -24,7 +24,7 @@
  <entry>
    <title>A Guide to the Good Life</title>
    <link href="http://leoexplor.es/great-books/2012/09/24/a-guide-to-the-good-life/"/>
-   <updated>2014-05-05T00:00:00-05:00</updated>
+   <updated>2014-05-05T00:00:00-04:00</updated>
    <id>http://leoexplor.es/great-books/2012/09/24/a-guide-to-the-good-life/</id>
    <content type="html">This is a very nice summary of the book &#39;A Guide to the Good Life&#39; by William B. Irvine. I&#39;ve been really into philosophy and developing emotional intelligence the past several months and it was an interesting read with great insights about life and how we experience it, as well as how our brains influence that experience.
 </content>
@@ -33,7 +33,7 @@
  <entry>
    <title>Detecting duplicate images with Python</title>
    <link href="http://blog.iconfinder.com/detecting-duplicate-images-using-python/"/>
-   <updated>2014-04-29T00:00:00-05:00</updated>
+   <updated>2014-04-29T00:00:00-04:00</updated>
    <id>http://blog.iconfinder.com/detecting-duplicate-images-using-python/</id>
    <content type="html">Cool algorithm for detecting visually duplicate images and being able to tell in constant time if your database already contains a particular image. This will be very helpful for an app idea that I&#39;m working on in my spare time.
 </content>
@@ -42,7 +42,7 @@
  <entry>
    <title>Do you really know JavaScript?</title>
    <link href="http://javascript-puzzlers.herokuapp.com/"/>
-   <updated>2014-04-14T00:00:00-05:00</updated>
+   <updated>2014-04-14T00:00:00-04:00</updated>
    <id>http://javascript-puzzlers.herokuapp.com/</id>
    <content type="html">A coworker shared this on Twitter a while back and I thought it was cool. It presents a quiz about JavaScript quirks that is almost impossibly hard to pass with a decent score, even for the most proficient JavaScripter.
 </content>
@@ -51,7 +51,7 @@
  <entry>
    <title>Spotify engineering culture</title>
    <link href="http://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/"/>
-   <updated>2014-04-01T00:00:00-05:00</updated>
+   <updated>2014-04-01T00:00:00-04:00</updated>
    <id>http://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/</id>
    <content type="html">This is an awesome video explaining Spotify&#39;s engineering culture. Definitely a great watch with lots of interesting concepts to consider. Looks like a very health environment for engineers at Spotify.
 </content>
@@ -60,7 +60,7 @@
  <entry>
    <title>An introduction to Functional Reactive Programming and Bacon.js</title>
    <link href="http://vimeo.com/68987289"/>
-   <updated>2014-03-12T00:00:00-05:00</updated>
+   <updated>2014-03-12T00:00:00-04:00</updated>
    <id>http://vimeo.com/68987289</id>
    <content type="html">While this is a completely different way of thinking about building front-end applications, it&#39;s pretty interesting. It&#39;s definitely going to take some time for me to get used to it but I think this is a pretty cool thing to explore.
 </content>
@@ -69,7 +69,7 @@
  <entry>
    <title>A Readable Wikipedia</title>
    <link href="http://blog.weare1910.com/post/75576312730/a-readable-wikipedia"/>
-   <updated>2014-02-28T00:00:00-06:00</updated>
+   <updated>2014-02-28T00:00:00-05:00</updated>
    <id>http://blog.weare1910.com/post/75576312730/a-readable-wikipedia</id>
    <content type="html">I love this imagining of a more readable Wikipedia design. It&#39;s definitely true that Wikipedia as it stands is horribly designed, with poor typography and overly cluttered sidebars. I&#39;d really enjoy seeing something like this become a reality.
 </content>
@@ -78,7 +78,7 @@
  <entry>
    <title>Unofficial Google Play Music Mac app</title>
    <link href="http://kbhomes.github.io/google-music-mac/"/>
-   <updated>2014-02-23T00:00:00-06:00</updated>
+   <updated>2014-02-23T00:00:00-05:00</updated>
    <id>http://kbhomes.github.io/google-music-mac/</id>
    <content type="html">This will be taken down soon probably due to copyright, but this is a really handy tool. I use Google Play Music and it is very frustrating that the app is a second-class citizen on my computer. You can alleviate some of the issues with Chrome plugins that proxy the media keys through to the tab Google Music is open in, but even aside that I&#39;ve found that the webapp is buggy in Chrome (at least). This desktop app (which is just a Webkit wrapper) has been performing perfectly for me, surprisingly.
 </content>
@@ -87,7 +87,7 @@
  <entry>
    <title>JS the Right Way</title>
    <link href="http://jstherightway.org/"/>
-   <updated>2014-02-18T00:00:00-06:00</updated>
+   <updated>2014-02-18T00:00:00-05:00</updated>
    <id>http://jstherightway.org/</id>
    <content type="html">This is a cool collection of resources for learning how to write JavaScript &quot;the right way&quot;. I&#39;m always a fan of doing things the right way, even if it takes a little longer or more effort, so this was well appreciated. A lot of things here I already know and do instinctively, but the lists of design patterns and testing tools were a great reference.
 </content>
@@ -96,7 +96,7 @@
  <entry>
    <title>Emphasis</title>
    <link href="http://open.blogs.nytimes.com/2011/01/11/emphasis-update-and-source/"/>
-   <updated>2014-02-12T00:00:00-06:00</updated>
+   <updated>2014-02-12T00:00:00-05:00</updated>
    <id>http://open.blogs.nytimes.com/2011/01/11/emphasis-update-and-source/</id>
    <content type="html">This is an interesting concept for creating permalinks to places inside content that can change. When content such as online news articles changes, the relative position of sentences can change, causing naive links that point to, for example, the n-th paragraph of an article to become wrong. Emphasis is a cool idea for creating smarter permalinks that always point to the same content, even when an article has been drastically revised.
 </content>
@@ -105,7 +105,7 @@
  <entry>
    <title>A simple guide to responsive design.</title>
    <link href="http://www.adamkaplan.me/grid/"/>
-   <updated>2014-02-09T00:00:00-06:00</updated>
+   <updated>2014-02-09T00:00:00-05:00</updated>
    <id>http://www.adamkaplan.me/grid/</id>
    <content type="html">Sweet little guide to the basics of responsive design and how to start implementing it.
 </content>
@@ -114,7 +114,7 @@
  <entry>
    <title>Sigma.js</title>
    <link href="http://sigmajs.org/"/>
-   <updated>2014-02-06T00:00:00-06:00</updated>
+   <updated>2014-02-06T00:00:00-05:00</updated>
    <id>http://sigmajs.org/</id>
    <content type="html">I&#39;m looking forward to playing with this to generate all kinds of directed graphs for visualizations, even if I just use it to make fancy wallpapers for my tablet or something. Can&#39;t think of an immediate use for this but I&#39;ll keep it in the back of my mind.
 </content>
@@ -123,7 +123,7 @@
  <entry>
    <title>Chromecast now open to developers</title>
    <link href="http://googledevelopers.blogspot.com/2014/02/ready-to-cast-chromecast-now-open-to.html"/>
-   <updated>2014-02-03T00:00:00-06:00</updated>
+   <updated>2014-02-03T00:00:00-05:00</updated>
    <id>http://googledevelopers.blogspot.com/2014/02/ready-to-cast-chromecast-now-open-to.html</id>
    <content type="html">This is pretty cool. My roommate has a TV that accepts casts from certain applications such as YouTube and we&#39;ve had some fun with playing with the JavaScript SDK to push random videos to the TV at any time. I might have Rick Rolled him in the middle of watching TV before...
 </content>
@@ -132,7 +132,7 @@
  <entry>
    <title>Dev Ops cheatsheet</title>
    <link href="http://rubytune.com/cheat"/>
-   <updated>2014-01-30T00:00:00-06:00</updated>
+   <updated>2014-01-30T00:00:00-05:00</updated>
    <id>http://rubytune.com/cheat</id>
    <content type="html">This is a handy reference for some interesting devops-y tips and tricks. The page says Ruby, but most of the things listed are general practice and not specifically Ruby.
 </content>
@@ -141,7 +141,7 @@
  <entry>
    <title>CoffeeScript 1.7 released</title>
    <link href="http://coffeescript.org/#changelog"/>
-   <updated>2014-01-29T00:00:00-06:00</updated>
+   <updated>2014-01-29T00:00:00-05:00</updated>
    <id>http://coffeescript.org/#changelog</id>
    <content type="html">New version of CoffeeScript is released today. Pretty cool enhancements but none I&#39;m super excited about it, though. The new operators are pretty cool, however. I haven&#39;t been using Coffee lately as much as I used to, even sometimes electing to use JS when I could have used Coffee. Not sure why that is.
 </content>
@@ -150,7 +150,7 @@
  <entry>
    <title>Internet Explorer (8) Array.sort Unreliable</title>
    <link href="http://www.zachleat.com/web/array-sort/"/>
-   <updated>2014-01-29T00:00:00-06:00</updated>
+   <updated>2014-01-29T00:00:00-05:00</updated>
    <id>http://www.zachleat.com/web/array-sort/</id>
    <content type="html">Fought this dumb bug at work today. In sorting functions given to Array.prototype.sort() in JavaScript, if you reassign argument variables&#39; values in the function, IE8 may completely break on you, sometimes resulting in one or both of your comparison values becoming undefined randomly. Though it makes no sense JavaScript-wise, to fix this bug, you have to declare your own, separate variables for your values.
 </content>
@@ -159,7 +159,7 @@
  <entry>
    <title>A Nerd in a Cave</title>
    <link href="http://randsinrepose.com/archives/a-nerd-in-a-cave/"/>
-   <updated>2014-01-23T00:00:00-06:00</updated>
+   <updated>2014-01-23T00:00:00-05:00</updated>
    <id>http://randsinrepose.com/archives/a-nerd-in-a-cave/</id>
    <content type="html">Way too much honesty here. The Zone we creative types work in is such a fickle thing, leading to irrational responses to anything that threatens it while we&#39;re in it. A nice write-up for friends and significant-others of creative types, explaining why if you interrupt The Zone and we&#39;re mean to you, we&#39;re sorry, but it&#39;s no one&#39;s fault.
 </content>
@@ -168,7 +168,7 @@
  <entry>
    <title>Trello boards made to load 87% faster</title>
    <link href="http://blog.fogcreek.com/we-spent-a-week-making-trello-boards-load-extremely-fast-heres-how-we-did-it/"/>
-   <updated>2014-01-22T00:00:00-06:00</updated>
+   <updated>2014-01-22T00:00:00-05:00</updated>
    <id>http://blog.fogcreek.com/we-spent-a-week-making-trello-boards-load-extremely-fast-heres-how-we-did-it/</id>
    <content type="html">A &lt;b&gt;really&lt;/b&gt; nice write-up about how to tackle common front-end application performance bottlenecks. I&#39;ve employed a few of these tricks myself in the past to achieve better performance in slower browsers (I&#39;m looking at you, IE).
 </content>
@@ -177,7 +177,7 @@
  <entry>
    <title>EasyStar.js</title>
    <link href="http://www.easystarjs.com/"/>
-   <updated>2014-01-21T00:00:00-06:00</updated>
+   <updated>2014-01-21T00:00:00-05:00</updated>
    <id>http://www.easystarjs.com/</id>
    <content type="html">This is a really cool pathfinding library using the A* Search Algorithm. It&#39;s designed for adding to your games and other JavaScript apps where pathfinding plays a role. Check out their website for a snazzy demonstration of the library guiding a group of soldiers across a randomly generated terrain.
 </content>
@@ -186,7 +186,7 @@
  <entry>
    <title>Who Owns?</title>
    <link href="http://zachholman.com/posts/who-owns/"/>
-   <updated>2014-01-15T00:00:00-06:00</updated>
+   <updated>2014-01-15T00:00:00-05:00</updated>
    <id>http://zachholman.com/posts/who-owns/</id>
    <content type="html">Nice article here by Zach Holman discussing insecurity around public expression on the web.
 </content>
@@ -195,7 +195,7 @@
  <entry>
    <title>Symbolset icons</title>
    <link href="http://symbolset.com/icons"/>
-   <updated>2014-01-14T00:00:00-06:00</updated>
+   <updated>2014-01-14T00:00:00-05:00</updated>
    <id>http://symbolset.com/icons</id>
    <content type="html">This is a really nice collection of icons for purchase. Might have to keep my eye on these for future use.
 </content>
@@ -204,7 +204,7 @@
  <entry>
    <title>4K is for programmers</title>
    <link href="http://tiamat.tsotech.com/4k-is-for-programmers"/>
-   <updated>2014-01-10T00:00:00-06:00</updated>
+   <updated>2014-01-10T00:00:00-05:00</updated>
    <id>http://tiamat.tsotech.com/4k-is-for-programmers</id>
    <content type="html">Interesting read about using a low-price 4K television as a computer display for development. I&#39;m not sure how I feel about using this high of resolution as a computer display, though. It&#39;s entirely too many pixels for me, I feel like.
 </content>

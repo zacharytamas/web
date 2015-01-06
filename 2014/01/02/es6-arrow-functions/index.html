@@ -24,7 +24,6 @@
 
   <!-- Icons -->
   
-  <link rel="shortcut icon" href="/public/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
@@ -37,14 +36,10 @@
 
     <div class="sidebar">
 
-  <div class="container big-z-logo">
-    <a href="/"><img src="/public/z-negative-space.png" alt="Z"></a>
-  </div>
-
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h2>Zachary Jones</h2>
-      <p class="lead">Full-stack developer and designer in Kansas&nbsp;City,&nbsp;MO.</p>
+      <p class="lead">Full-stack developer and designer in Atlanta,&nbsp;GA.</p>
     </div>
 
     <ul class="sidebar-nav">
@@ -69,12 +64,6 @@
         
       
         
-          
-        
-      
-        
-      
-        
       
         
           
@@ -82,6 +71,8 @@
       
         
           
+        
+      
         
       
         
@@ -104,6 +95,10 @@
           
         
       
+        
+          
+        
+      
 
       <li class="sidebar-nav-item">
         <a href="/portfolio/">Portfolio</a>
@@ -118,7 +113,7 @@
 
     </ul>
 
-    <p>&copy; 2014. All rights reserved.</p>
+    <p>&copy; 2015. All rights reserved.</p>
   </div>
 </div>
 
@@ -135,22 +130,20 @@
 
 <p>Of course Coffee uses indentation to denote blocks and JavaScript explicitly requires braces for blocks of longer than one statement, so although we are getting the arrow syntax in ES6 we&#39;ll never get this:</p>
 
-<div class="highlight"><pre><code class="coffeescript">  <span class="nv">sayHello = </span><span class="nf">(person) =&gt;</span>
+<div class="highlight"><pre><code class="language-coffeescript" data-lang="coffeescript"><span class="nv">sayHello = </span><span class="nf">(person) =&gt;</span>
     <span class="nv">output = </span><span class="s">&#39;Hello &#39;</span> <span class="o">+</span> <span class="nx">person</span>
-    <span class="k">return</span> <span class="nx">output</span>
-</code></pre></div>
+    <span class="k">return</span> <span class="nx">output</span></code></pre></div>
 
 <p>But this current compromise is enough to not fight too much over:</p>
 
-<div class="highlight"><pre><code class="javascript">  <span class="kd">var</span> <span class="nx">sayHello</span> <span class="o">=</span> <span class="p">(</span><span class="nx">person</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">sayHello</span> <span class="o">=</span> <span class="p">(</span><span class="nx">person</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
     <span class="kd">var</span> <span class="nx">output</span> <span class="o">=</span> <span class="s1">&#39;Hello &#39;</span> <span class="o">+</span> <span class="nx">person</span><span class="p">;</span>
     <span class="k">return</span> <span class="nx">output</span><span class="p">;</span>
-  <span class="p">}</span>
-</code></pre></div>
+  <span class="p">}</span></code></pre></div>
 
 <p>They are only taking the fat-arrow functionality from Coffee, however, so these arrow functions are always using lexical <code>this</code> which is nice in cases where you need <code>this</code> in your function to refer to the <code>this</code> in scope when the function was defined&mdash;not where it was called.</p>
 
-<div class="highlight"><pre><code class="javascript"><span class="c1">// Old way:</span>
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// Old way:</span>
 <span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
   <span class="k">this</span><span class="p">.</span><span class="nx">foo</span> <span class="o">=</span> <span class="s1">&#39;bar&#39;</span><span class="p">;</span>
   <span class="kd">var</span> <span class="nx">_this</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
@@ -167,8 +160,7 @@
 <span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
   <span class="k">this</span><span class="p">.</span><span class="nx">foo</span> <span class="o">=</span> <span class="s1">&#39;bar&#39;</span><span class="p">;</span>
   <span class="k">return</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="k">this</span><span class="p">.</span><span class="nx">foo</span><span class="p">;</span>
-<span class="p">})();</span>
-</code></pre></div>
+<span class="p">})();</span></code></pre></div>
 
 <p>CoffeeScript has two different arrow operators for this purpose: <code>-&gt;</code> which is the standard way where <code>this</code> is dependent on calling context, and the &quot;fat arrow&quot; <code>=&gt;</code> version which provides lexical <code>this</code>.</p>
 
@@ -176,26 +168,23 @@
 
 <p>In Coffee, the parenthesis are optional if-and-only-if the function requires no arguments. This style is convenient because combined with Coffee&#39;s optional parenthesis on function invocation you can very lightweight syntax for common things like:</p>
 
-<div class="highlight"><pre><code class="coffeescript"><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span> <span class="nf">-&gt;</span>
-  <span class="nx">doStuff</span><span class="p">()</span>
-</code></pre></div>
+<div class="highlight"><pre><code class="language-coffeescript" data-lang="coffeescript"><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span> <span class="nf">-&gt;</span>
+  <span class="nx">doStuff</span><span class="p">()</span></code></pre></div>
 
 <p>If the function you&#39;re defining accepts named arguments at all, you must provide the parens:</p>
 
-<div class="highlight"><pre><code class="coffeescript"><span class="nv">add = </span><span class="nf">(a, b) -&gt;</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span>
-</code></pre></div>
+<div class="highlight"><pre><code class="language-coffeescript" data-lang="coffeescript"><span class="nv">add = </span><span class="nf">(a, b) -&gt;</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span></code></pre></div>
 
 <p>In ECMAScript 6 arrow functions, for some reason, the parens are optional when the function accepts <em>only one</em> named argument, and are required for all other cases&mdash;including when no arguments are declared.</p>
 
-<div class="highlight"><pre><code class="javascript"><span class="c1">// Parens required.</span>
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// Parens required.</span>
 <span class="kd">var</span> <span class="nx">add</span> <span class="o">=</span> <span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span>
 
 <span class="c1">// Parens not required because only one argument is declared.</span>
 <span class="kd">var</span> <span class="nx">sayHello</span> <span class="o">=</span> <span class="nx">name</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Hello &#39;</span> <span class="o">+</span> <span class="nx">name</span> <span class="o">+</span> <span class="s1">&#39;!&#39;</span><span class="p">);</span>
 
 <span class="c1">// Parens required for no arguments</span>
-<span class="kd">var</span> <span class="nx">bark</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Ruff!&#39;</span><span class="p">);</span>
-</code></pre></div>
+<span class="kd">var</span> <span class="nx">bark</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Ruff!&#39;</span><span class="p">);</span></code></pre></div>
 
 <p>This seems odd and error-prone. By making the parens optional only on the case of one named argument, you really aren&#39;t saving me much at all. In fact, I think without them there makes it even more confusing looking: <em>why is this identifier here? Where did I declare this? Oh, I&#39;m declaring it right now.</em> On the other side, having a pair of empty parens makes me feel like I have leftover cruft from a refactor until I look after it and see the <code>=&gt;</code> and think <em>Ah, this is a function.</em></p>
 
@@ -203,14 +192,13 @@
 
 <p>Another slight quirk: you may have noticed the case where my ES6 arrow-function didn&#39;t have a return statement. If you&#39;re familiar with Ruby, Coffee, or other such languages, you may be familiar with this implicit return of the last expression evaluated. Don&#39;t be fooled however, this rule only applies to arrow functions that are only one expression.</p>
 
-<div class="highlight"><pre><code class="javascript">  <span class="kd">var</span> <span class="nx">sayHello</span> <span class="o">=</span> <span class="p">(</span><span class="nx">person</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">sayHello</span> <span class="o">=</span> <span class="p">(</span><span class="nx">person</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
     <span class="kd">var</span> <span class="nx">output</span> <span class="o">=</span> <span class="s1">&#39;Hello &#39;</span> <span class="o">+</span> <span class="nx">person</span><span class="p">;</span>
     <span class="k">return</span> <span class="nx">output</span><span class="p">;</span>  <span class="c1">// this return is required</span>
   <span class="p">}</span>
 
   <span class="c1">// no return required</span>
-  <span class="kd">var</span> <span class="nx">sayHello</span> <span class="o">=</span> <span class="p">(</span><span class="nx">person</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="s1">&#39;Hello &#39;</span> <span class="o">+</span> <span class="nx">person</span><span class="p">;</span>
-</code></pre></div>
+  <span class="kd">var</span> <span class="nx">sayHello</span> <span class="o">=</span> <span class="p">(</span><span class="nx">person</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="s1">&#39;Hello &#39;</span> <span class="o">+</span> <span class="nx">person</span><span class="p">;</span></code></pre></div>
 
 <hr>
 
