@@ -4,13 +4,22 @@
  <title>zacharytamas - Links</title>
  <link href="http://blog.zacharytamas.me/atom.xml" rel="self"/>
  <link href="http://blog.zacharytamas.me/"/>
- <updated>2015-01-06T16:00:51-05:00</updated>
+ <updated>2015-01-07T13:41:54-05:00</updated>
  <id>http://blog.zacharytamas.me</id>
  <author>
    <name>Zachary Jones</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Full Stack Radio</title>
+   <link href="http://fullstackradio.com/"/>
+   <updated>2015-01-07T00:00:00-05:00</updated>
+   <id>http://fullstackradio.com/</id>
+   <content type="html">I&#39;m on such a podcast kick lately, and this is my latest. I&#39;ve only listened to the first episode so far, but I can already see the utility of the show&#39;s concept. Seems like a great series which explores how to build quality at all levels of a product.
+</content>
+ </entry>
  
  <entry>
    <title>Twenty rules of formulating knowledge</title>
