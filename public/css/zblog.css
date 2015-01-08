@@ -9,7 +9,7 @@ body.front-page {
   background: #4caf50;
 }
 body.front-page .container {
-  max-width: 32rem;
+  max-width: 34rem;
 }
 body.front-page mark {
   background-color: #a5d6a7;
@@ -34,6 +34,7 @@ body.front-page footer {
 }
 body.front-page section {
   margin-top: 5ex;
+  color: rgba(0, 0, 0, 0.7);
 }
 body.front-page section > h1 {
   color: #b9f6ca;
