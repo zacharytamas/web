@@ -6,7 +6,7 @@
   color: #33691e;
 }
 body.front-page {
-  background: #8bc34a;
+  background: #dcedc8;
 }
 body.front-page .container {
   max-width: 34rem;
@@ -22,7 +22,7 @@ body.front-page p.lead {
 }
 body.front-page a {
   text-decoration: underline;
-  color: #fff;
+  color: #7cb342;
 }
 body.front-page a:hover {
   text-decoration: none;
@@ -37,7 +37,7 @@ body.front-page section {
   color: rgba(0, 0, 0, 0.7);
 }
 body.front-page section > h1 {
-  color: #ccff90;
+  color: #7cb342;
   font-size: 1.5em;
 }
 li > ul {
@@ -68,19 +68,9 @@ h1.masthead {
 .sidebar .sidebar-about p.lead {
   font-size: 1.1rem;
 }
-.sidebar .big-z-logo img {
-  display: inline;
-  border-radius: 32px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-.sidebar .big-z-logo img:hover {
-  border-radius: 5px;
-}
 ul.posts-big-list {
   list-style-type: none;
   padding-left: 0;
-  border-top: 1px rgba(0, 0, 0, 0.2) solid;
 }
 ul.posts-big-list li {
   padding: 0.5rem 0;
@@ -90,8 +80,7 @@ ul.posts-big-list li:last-child {
   border-bottom: none;
 }
 ul.posts-big-list li a {
-  font-weight: 500;
-  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
 }
 ul.posts-big-list li span {
   float: right;
