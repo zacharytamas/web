@@ -1,20 +1,20 @@
 .theme-base-0e .sidebar {
-  background-color: #4caf50;
+  background-color: #8bc34a;
 }
 .theme-base-0e .content a,
 .theme-base-0e .related-posts li a:hover {
-  color: #1b5e20;
+  color: #33691e;
 }
 body.front-page {
-  background: #4caf50;
+  background: #8bc34a;
 }
 body.front-page .container {
   max-width: 34rem;
 }
 body.front-page mark {
-  background-color: #a5d6a7;
+  background-color: #c5e1a5;
   padding: 2px 5px;
-  color: #1b5e20;
+  color: #33691e;
 }
 body.front-page p.lead {
   font-weight: 600;
@@ -37,7 +37,7 @@ body.front-page section {
   color: rgba(0, 0, 0, 0.7);
 }
 body.front-page section > h1 {
-  color: #b9f6ca;
+  color: #ccff90;
   font-size: 1.5em;
 }
 li > ul {
@@ -104,7 +104,7 @@ dl.larger-text dd {
   font-size: 1.25em;
 }
 dl dt {
-  color: #1b5e20;
+  color: #33691e;
   text-transform: uppercase;
   margin-bottom: 0.5em;
 }
