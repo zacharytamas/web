@@ -5,11 +5,17 @@
 .theme-base-0e .related-posts li a:hover {
   color: #33691e;
 }
+#appbar {
+  background: white;
+  height: 56px;
+}
 body.front-page {
-  background: #dcedc8;
+  padding-top: 56px;
+  background: #f1f8e9;
+  color: #424242;
 }
 body.front-page .container {
-  max-width: 34rem;
+  max-width: 36rem;
 }
 body.front-page mark {
   background-color: #c5e1a5;
@@ -18,7 +24,6 @@ body.front-page mark {
 }
 body.front-page p.lead {
   font-weight: 600;
-  color: #ffffff;
 }
 body.front-page a {
   text-decoration: underline;
@@ -26,6 +31,7 @@ body.front-page a {
 }
 body.front-page a:hover {
   text-decoration: none;
+  color: #8bc34a;
 }
 body.front-page footer {
   margin: 5ex 0;
@@ -34,11 +40,14 @@ body.front-page footer {
 }
 body.front-page section {
   margin-top: 5ex;
-  color: rgba(0, 0, 0, 0.7);
 }
 body.front-page section > h1 {
   color: #7cb342;
-  font-size: 1.5em;
+  font-size: 2rem;
+}
+body.front-page section > h2 {
+  color: #616161;
+  font-size: 0.9em;
 }
 li > ul {
   margin-bottom: 0;
@@ -73,14 +82,17 @@ ul.posts-big-list {
   padding-left: 0;
 }
 ul.posts-big-list li {
-  padding: 0.5rem 0;
-  border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
+  padding: .75rem 0;
+  border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+  line-height: 1.5rem;
 }
 ul.posts-big-list li:last-child {
   border-bottom: none;
 }
 ul.posts-big-list li a {
   font-weight: 600;
+  font-size: 1.5rem;
+  text-decoration: none;
 }
 ul.posts-big-list li span {
   float: right;
