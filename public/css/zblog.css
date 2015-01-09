@@ -6,55 +6,76 @@
   color: #33691e;
 }
 #appbar {
-  background: white;
+  background: #8bc34a;
   height: 56px;
+  margin-bottom: 2rem;
 }
-body.front-page {
-  padding-top: 28px;
-  background: #f1f8e9;
+#appbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#appbar ul li {
+  float: left;
+  margin: 0;
+  margin-right: 1.5rem;
+  padding: 14px 0;
+}
+#appbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+#appbar ul li a:hover {
+  color: #33691e;
+}
+body.v2 {
   color: #424242;
+  background: #f1f8e9;
 }
-body.front-page .container {
+body.v2 .container {
   max-width: 36rem;
 }
-body.front-page mark {
+body.v2 mark {
   background-color: #c5e1a5;
   padding: 2px 5px;
   color: #33691e;
 }
-body.front-page p.lead {
+body.v2 p.lead {
   font-weight: 600;
 }
-body.front-page a {
+body.v2 a {
   text-decoration: underline;
   color: #7cb342;
 }
-body.front-page a:hover {
+body.v2 a:hover {
   text-decoration: none;
   color: #8bc34a;
 }
-body.front-page footer {
+body.v2 footer {
   border-top: 1px rgba(0, 0, 0, 0.1) solid;
   padding-top: 2rem;
   margin: 3rem 0;
   text-align: center;
   font-size: 0.8rem;
 }
-body.front-page section {
+body.v2 section {
   margin-top: 5ex;
 }
-body.front-page section.callout {
+body.v2 section.callout {
   background: #dcedc8;
   margin: 0 -1rem;
   padding: 0.5rem 1rem;
 }
-body.front-page section > h1 {
+body.v2 section > h1 {
   color: #7cb342;
   font-size: 2rem;
 }
-body.front-page section > h2 {
+body.v2 section > h2 {
   color: #616161;
   font-size: 0.9em;
+}
+body.front-page {
+  padding-top: 28px;
 }
 li > ul {
   margin-bottom: 0;
