@@ -10,7 +10,7 @@
   height: 56px;
 }
 body.front-page {
-  padding-top: 56px;
+  padding-top: 28px;
   background: #f1f8e9;
   color: #424242;
 }
@@ -34,12 +34,19 @@ body.front-page a:hover {
   color: #8bc34a;
 }
 body.front-page footer {
-  margin: 5ex 0;
+  border-top: 1px rgba(0, 0, 0, 0.1) solid;
+  padding-top: 2rem;
+  margin: 3rem 0;
   text-align: center;
   font-size: 0.8rem;
 }
 body.front-page section {
   margin-top: 5ex;
+}
+body.front-page section.callout {
+  background: #dcedc8;
+  margin: 0 -1rem;
+  padding: 0.5rem 1rem;
 }
 body.front-page section > h1 {
   color: #7cb342;
