@@ -1,4 +1,4 @@
-zblog
+web
 =====
 
-My blog at http://blog.zacharytamas.me
+My website at http://zacharytamas.me
