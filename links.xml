@@ -4,13 +4,21 @@
  <title>zacharytamas - Links</title>
  <link href="http://blog.zacharytamas.me/atom.xml" rel="self"/>
  <link href="http://blog.zacharytamas.me/"/>
- <updated>2015-01-09T16:43:40-05:00</updated>
+ <updated>2015-08-19T17:28:36-04:00</updated>
  <id>http://blog.zacharytamas.me</id>
  <author>
    <name>Zachary Jones</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Guitar Tuner</title>
+   <link href="https://aerotwist.com/blog/guitar-tuner/"/>
+   <updated>2015-07-02T00:00:00-04:00</updated>
+   <id>https://aerotwist.com/blog/guitar-tuner/</id>
+   <content type="html"></content>
+ </entry>
  
  <entry>
    <title>Full Stack Radio</title>
